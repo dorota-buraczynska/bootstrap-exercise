@@ -1,0 +1,125 @@
+body {
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+
+.navbar {
+    background-color: #f4511e;
+    border: none;
+}
+
+.logo {
+    background-color: #f4511e;
+}
+
+h3 {
+    text-transform: uppercase;
+    color: black;
+}
+
+.jumbotron h3 {
+    text-transform: capitalize;
+    font-size: 63px;
+    color: white;
+}
+
+.jumbotron.text-center {
+    padding-top: 119px;
+    padding-bottom: 103px;
+    background-color: #f4511e;
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    border-radius: 0;
+}
+
+.navbar-default .navbar-brand {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    letter-spacing: 4.7px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-brand:hover {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 12px;
+    letter-spacing: 4.7px;
+    line-height: 20px;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #f4511e;
+    background-color: white;
+}
+
+.about-company {
+    margin-top: 45px;
+    margin-bottom: 45px;
+}
+
+.sign {
+    padding-top: 50px;
+    font-size: 200px;
+    color: #f4511e;
+}
+
+.values .sign {
+    padding-left: 52px;
+}
+
+.values {
+    background-color: #f6f6f6;
+}
+
+.title {
+    padding: 50px 52px 35px 52px;
+    font-weight: bold;
+    color: black;
+}
+
+.main-text {
+    padding-bottom: 63px;
+    color: black;
+}
+
+.text,
+.main-text {
+    padding-left: 52px;
+    padding-right: 52px;
+    padding-bottom: 30px;
+    font-size: 17px;
+    line-height: 1.7em;
+}
+
+.about-company button {
+    margin: 30px 52px 0 52px;
+}
+
+.services p {
+    margin-bottom: 60px;
+}
+.bold {
+    font-weight: bold;
+}
+
+.sign-small {
+    color: #f4511e;
+    font-size: 50px;
+}
+
+.portfolio {
+    background-color: #f6f6f6;
+    padding-left: 52px;
+    padding-right: 52px;
+}
+
+.portfolio .thumbnail {
+    padding: 0;
+    border: none;
+}
