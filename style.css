@@ -4,10 +4,19 @@
         text-align: center;
     }
     .full-width {
-        width: 85%;
+        width: 80%
     }
 }
 
+@media (max-width: 493px) {
+
+    .center {
+        text-align: center;
+    }
+    .full-width {
+        width: 70%
+    }
+}
 
 @keyframes slide {
     0% {
