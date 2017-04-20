@@ -2,23 +2,16 @@ body {
     position: relative;
 }
 
+.test {
+    position: relative;
+}
 @media (max-width: 768px) {
 
     .center {
         text-align: center;
     }
     .full-width {
-        width: 80%
-    }
-}
-
-@media (max-width: 493px) {
-
-    .center {
-        text-align: center;
-    }
-    .full-width {
-        width: 70%
+        width: calc(100% - 104px);
     }
 }
 
@@ -73,15 +66,14 @@ h3 {
     color: black;
 }
 
-.jumbotron h3 {
+.jumbotron h1 {
     text-transform: capitalize;
-    font-size: 63px;
     color: white;
 }
 
 .jumbotron.text-center {
-    padding-top: 119px;
-    padding-bottom: 103px;
+    padding-top: 106px;
+    padding-bottom: 99px;
     background-color: #f4511e;
     color: white;
     font-family: 'Montserrat', sans-serif;
@@ -285,4 +277,12 @@ address {
 .top .glyphicon {
     color: #f4511e;
     font-size: 20px;
+}
+
+.hidden {
+    visibility: hidden;
+}
+
+.visible {
+    visibility: visible;
 }
