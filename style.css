@@ -247,7 +247,7 @@ h3 {
 .panel-group {
     margin-top: 15px;
     margin-bottom: 60px;
-    transition: box-shadow 1s;
+    transition: box-shadow 2s;
 }
 
 .panel-group:hover {
@@ -277,12 +277,4 @@ address {
 .top .glyphicon {
     color: #f4511e;
     font-size: 20px;
-}
-
-.hidden {
-    visibility: hidden;
-}
-
-.visible {
-    visibility: visible;
 }

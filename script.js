@@ -20,9 +20,8 @@ var $slideAnims = $('.slideanim');
 $(window).scroll(function () {
     console.log('scroll');
     $slideAnims.each(function () {
-        if ($(this).hasClass('slide')) {
-            console.log('ggg');
-            return;
+        if ($(window).scrollTop() === 0) {
+            $(this).removeClass('slide');
         }
         var position = $(this).offset().top;
         var winTop = $(window).scrollTop();
@@ -67,5 +66,3 @@ $('.navbar a, .top a').on('click', function () {
     }
 
 });
-
-console.log($('#about').offset().top);
