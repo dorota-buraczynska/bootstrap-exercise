@@ -7,8 +7,7 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet">
     <link href="style.css" rel="stylesheet" type="text/css">
-    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
-    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
 
 </head>
 <body>
@@ -39,7 +38,7 @@
         <p>We specialize in blablbla</p>
         <form class="form-inline">
             <div class="input-group">
-                <input type="email" class="form-control" id="email" placeholder="Email Address" size="50">
+                <input type="email" class="form-control" placeholder="Email Address" size="50">
                 <div class="input-group-btn">
                     <button type="submit" class="btn btn-danger">Subscribe</button>
                 </div>
@@ -70,14 +69,18 @@
                 commodi
                 culpa cum ea ipsum labore mollitia nam neque quaerat quidem recusandae, sed veritatis? Accusantium, ea,
                 vel?</h4>
-            <button type="button" class="btn btn-default btn-lg">Get in touch</button>
+            <button type="button" class="btn btn-default btn-lg full-width">Get in touch</button>
         </div>
-        <span class="glyphicon glyphicon-signal sign col-sm-4"></span>
+        <div class="center">
+            <span class="glyphicon glyphicon-signal sign col-sm-4"></span>
+        </div>
     </div>
 </div>
 <div class="values container-fluid">
     <div class="row">
-        <span class="glyphicon glyphicon-globe col-sm-3 sign"></span>
+        <div class="center">
+        <span class="glyphicon glyphicon-globe col-sm-3 sign slideanim"></span>
+            </div>
         <div class="col-sm-9">
             <h3 class="title">our values</h3>
             <h4 class="main-text"><span class="bold">MISSION:</span>Lorem ipsum dolor sit amet, consectetur adipisicing
@@ -98,7 +101,7 @@
 <div class="services container-fluid">
     <h3 class="title text-center">services</h3>
     <h4 class="main-text text-center">What we offer</h4>
-    <div class="row text-center">
+    <div class="row text-center slideanim">
         <div class="col-sm-4">
             <span class="glyphicon glyphicon-off sign-small"></span>
             <h3>power</h3>
@@ -115,7 +118,7 @@
             <p>Lorem ipsum dolor sit amet.</p>
         </div>
     </div>
-    <div class="row text-center">
+    <div class="row text-center slideanim">
         <div class="col-sm-4">
             <span class="glyphicon glyphicon-leaf sign-small"></span>
             <h3>green</h3>
@@ -136,7 +139,7 @@
 <div class="portfolio container-fluid">
     <h3 class="title text-center">portfolio</h3>
     <h4 class="text text-center">What we have created</h4>
-    <div class="row">
+    <div class="row slideanim">
         <div class="col-sm-4">
             <div class="thumbnail">
                 <img src="photo/paris.jpg" alt="Paris" style="width:100%">
@@ -145,28 +148,160 @@
                     <p>Yes, we built Paris</p>
                 </div>
             </div>
-    </div>
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="photo/newyork.jpg" alt="New York" style="width:100%">
-            <div class="caption text-center">
-                <p><span class="bold">New York</span></p>
-                <p>Yes, we built New York</p>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="photo/newyork.jpg" alt="New York" style="width:100%">
+                <div class="caption text-center">
+                    <p><span class="bold">New York</span></p>
+                    <p>Yes, we built New York</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="thumbnail">
+                <img src="photo/paris.jpg" alt="Paris" style="width:100%">
+                <div class="caption text-center">
+                    <p><span class="bold">Paris</span></p>
+                    <p>Yes, we built Paris</p>
+                </div>
             </div>
         </div>
     </div>
-    <div class="col-sm-4">
-        <div class="thumbnail">
-            <img src="photo/paris.jpg" alt="Paris" style="width:100%">
-            <div class="caption text-center">
-                <p><span class="bold">Paris</span></p>
-                <p>Yes, we built Paris</p>
-            </div>
-        </div>
-    </div>
-</div>
     <h3 class="title text-center">what our customers say</h3>
+    <div id="myCarousel" class="carousel slide" data-ride="carousel">
+        <ol class="carousel-indicators">
+            <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
+            <li data-target="#myCarousel" data-slide-to="1"></li>
+            <li data-target="#myCarousel" data-slide-to="2"></li>
+        </ol>
+        <div class="carousel-inner" role="listbox">
+            <div class="item active text-center">
+                <h4><em>"One word... WOW!"</em><br>John Down, Big Jet State</h4>
+            </div>
+            <div class="item text-center">
+                <h4><em>"This company is the best"</em><br>John Roberst, Big Time Factor</h4>
+            </div>
+            <div class="item text-center">
+                <h4><em>"I am so happy that I knew this company"</em><br>Robert Brown, Market Mix</h4>
+            </div>
+        </div>
+        <a class="left carousel-control" href="#myCarousel" role="button" data-slide="prev">
+            <span class="glyphicon glyphicon-chevron-left sign-small" aria-hidden="true"></span>
+            <span class="sr-only">Previous</span>
+        </a>
+        <a class="right carousel-control sign-small" href="#myCarousel" role="button" data-slide="next">
+            <span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span>
+            <span class="sr-only">Next</span>
+        </a>
+    </div>
 </div>
+<div class="pricing container-fluid">
+    <h3 class="title text-center">pricing</h3>
+    <h4 class="text text-center">Choose a payment plan that works for you</h4>
+    <div class="row slideanim">
+        <div class="col-sm-4">
+            <div class="panel-group text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h2>Basic</h2></div>
+                    <div class="panel-body">
+                        <p><strong>20</strong>Lorem</p>
+                        <p><strong>15</strong>Ipsum</p>
+                        <p><strong>5</strong>Dolor</p>
+                        <p><strong>2</strong>Sit</p>
+                        <p><strong>Endless</strong>Amet</p>
+                    </div>
+                    <div class="panel-body">
+                        <h2><strong>$ 19</strong></h2>
+                        <p>per month</p>
+                        <button type="button" class="btn btn-default btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel-group text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h2>Pro</h2></div>
+                    <div class="panel-body">
+                        <p><strong>50</strong>Lorem</p>
+                        <p><strong>25</strong>Ipsum</p>
+                        <p><strong>10</strong>Dolor</p>
+                        <p><strong>5</strong>Sit</p>
+                        <p><strong>Endless</strong>Amet</p>
+                    </div>
+                    <div class="panel-body">
+                        <h2><strong>$ 29</strong></h2>
+                        <p>per month</p>
+                        <button type="button" class="btn btn-default btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="col-sm-4">
+            <div class="panel-group text-center">
+                <div class="panel panel-default">
+                    <div class="panel-heading"><h2>Premium</h2></div>
+                    <div class="panel-body">
+                        <p><strong>100</strong>Lorem</p>
+                        <p><strong>50</strong>Ipsum</p>
+                        <p><strong>25</strong>Dolor</p>
+                        <p><strong>10</strong>Sit</p>
+                        <p><strong>Endless</strong>Amet</p>
+                    </div>
+                    <div class="panel-body">
+                        <h2><strong>$ 49</strong></h2>
+                        <p>per month</p>
+                        <button type="button" class="btn btn-default btn-lg">Sign Up</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="contact container-fluid">
+    <h3 class="title text-center">contact</h3>
+    <div class="row">
+        <div class="col-sm-5">
+            <p>Contact us and we'll get back to you within 24 hours.</p>
+            <address>
+                <span class="glyphicon glyphicon-map-marker"></span> Chicago, US<br>
+                <span class="glyphicon glyphicon-phone"></span> +23 1234567890<br>
+                <span class="glyphicon glyphicon-envelope"></span> mailtome@something.com<br>
+            </address>
+        </div>
+        <div class="col-sm-7 slideanim">
+            <div class="row">
+                <div class="form-group col-sm-6">
+                    <input type="text" class="form-control" placeholder="Name">
+                </div>
+                <div class="form-group col-sm-6">
+                    <input type="email" class="form-control" placeholder="Email">
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-12">
+                    <textarea class="form-control" rows="6" placeholder="Comment"></textarea>
+                </div>
+            </div>
+            <div class="row">
+                <div class="form-group col-sm-12">
+                    <button type="submit" class="btn btn-default pull-right">Send</button>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="container-fluid" id="map">
+</div>
+<div class="top container-fluid text-center">
+    <a href="#"><span class="glyphicon glyphicon-chevron-up"></span></a>
+    <p>Bootstrap Theme From <a href="https://www.w3schools.com/" target="_blank">www.w3schools.com</a> Re-create By
+        Dorota Buraczyńska</p>
+</div>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.0/jquery.min.js"></script>
 <script src="script.js" type="text/javascript"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyCZzyUpnaDI3xoPGCILVgEeKH6kyP2hac4&callback=initMap"></script>
 </body>
 </html>
