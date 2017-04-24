@@ -2,9 +2,6 @@ body {
     position: relative;
 }
 
-.test {
-    position: relative;
-}
 @media (max-width: 768px) {
 
     .center {
